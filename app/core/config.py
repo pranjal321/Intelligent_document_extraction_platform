@@ -3,7 +3,7 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
 
-    GROQ_API_KEY: str = "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"
+    GROQ_API_KEY: str = ""
 
     DATABASE_URL: str = "sqlite:///./documents.db"
 
